@@ -10,9 +10,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Getter
-// NOTE: DB 붙이기전에 테스트용
 @Setter
-
+//@Builder
 //@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Student {
 
