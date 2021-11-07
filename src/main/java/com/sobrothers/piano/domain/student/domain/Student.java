@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
 //@Builder
 //@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Student {
-
     @Id
     @GeneratedValue
     private Long id;
@@ -36,6 +35,4 @@ public class Student {
     private String studentNotes;
     private String lessonNotes;
     private boolean pushStatus;
-
-
 }
