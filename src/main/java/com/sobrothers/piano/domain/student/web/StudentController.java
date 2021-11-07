@@ -17,7 +17,7 @@ public class StudentController {
 
     private StudentService studentService;
     private StudentRepository studentRepository;
-
+    // 주석
     // GET + 도메인 (Entity)
     @GetMapping("/students")
     public List<Student> getStudents()  {
